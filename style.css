@@ -1,0 +1,207 @@
+/* color: #fff;
+color: #fff7f7;
+color: #f3e7c2;
+color: #e0dcd9;
+color: #6d5c50;
+color: #2e2c2b;
+color: #f3e7c2; */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  overflow-x: hidden;
+  background-color: #f3e7c2;
+  color: #2e2c2b;
+  font-size: 1.6rem;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  border-radius: 2rem;
+  background-color: #fff;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.meal-container {
+  margin: 0 auto;
+  padding: 7rem;
+}
+
+.meal-container img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  border-radius: 5rem;
+}
+
+.recipe-title {
+  font-family: "Young Serif", serif;
+  font-size: 6rem;
+  margin-top: 3rem;
+}
+
+.recipe-description {
+  font-size: 2.5rem;
+  margin-top: 3rem;
+  line-height: 3.5rem;
+}
+
+.preparation {
+  background-color: #fff7f7;
+  margin-top: 2rem;
+  padding: 2rem 6rem;
+}
+.preparation-heading {
+  color: #825b6b;
+  margin: 2rem 0;
+}
+.preparation-list {
+  font-size: 2rem;
+  line-height: 4rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+.secondary-heading {
+  font-family: "Young Serif", serif;
+  color: #6d5c50;
+  margin: 2rem 0;
+  font-size: 4rem;
+}
+
+.ingredients-list {
+    font-size: 2rem;
+  margin: 2rem 2rem;
+}
+
+hr {
+    margin: 4rem 0;
+    border-color: #fff;
+    
+}
+
+.instructions-list{
+    margin: 2rem 2rem;
+    line-height: 3rem;
+    font-size: 2rem;
+}
+.nutrition-txt{
+    font-size: 2rem;
+}
+
+table {
+    border-collapse: collapse; 
+    width: 100%;
+    font-size: 2rem;
+    margin-top: 3rem;
+  }
+  
+  td {
+    border-bottom: 1px solid #e0dcd9; 
+    padding: 2rem 4rem; 
+  }
+  
+  tr:last-child td {
+    border-bottom: none; 
+  }
+
+  .amount{
+    color: #75594f;
+    font-weight: 600;
+  }
+  @media only screen and (max-width: 75em) {
+    html{
+        font-size: 50%;
+    }
+  }
+
+  @media only screen and (max-width: 48em) {
+    .container {
+      border-radius: 0;
+      margin-top: 2rem;
+    }
+  
+    .meal-container {
+      padding: 4rem;
+    }
+  
+    .recipe-title {
+      font-size: 4rem;
+      margin-top: 2rem;
+    }
+  
+    .recipe-description {
+      font-size: 1.8rem;
+      margin-top: 2rem;
+      line-height: 2.8rem;
+    }
+  
+    .preparation {
+      padding: 2rem;
+    }
+  
+    .preparation-heading {
+      margin: 1.5rem 0;
+      font-size: 2.5rem;
+    }
+  
+    .preparation-list {
+      font-size: 1.6rem;
+      line-height: 3rem;
+    }
+  
+    .secondary-heading {
+      font-size: 3rem;
+      margin: 1.5rem 0;
+    }
+  
+    .ingredients-list {
+      font-size: 1.6rem;
+      margin: 1.5rem 1rem;
+    }
+  
+    hr {
+      margin: 2rem 0;
+    }
+  
+    .instructions-list {
+      margin: 1.5rem 1rem;
+      line-height: 2.5rem;
+      font-size: 1.6rem;
+    }
+  
+    .nutrition-txt {
+      font-size: 1.6rem;
+    }
+  
+    table {
+      margin-top: 2rem;
+      font-size: 1.6rem;
+    }
+  
+    td {
+      padding: 1rem 2rem;
+    }
+  
+    .amount {
+      font-weight: 600;
+      color: #75594f;
+    }
+  }
